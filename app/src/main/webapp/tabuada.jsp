@@ -5,6 +5,8 @@
     for(int indice = 0;indice < 10;indice++){
         resultado[indice] = (indice + 1) * 5;
     }
+
+    request.setAttribute("tabuada" , resultado);
 %>
 <!DOCTYPE html>
 <html lang="en">
@@ -38,6 +40,15 @@
             <% } %>
 
     <hr>
+    
+    <hr />
+    
+    <ul>
+    <c:forEach var="num" items="${tabuada}">
+        <li>${num}</li>
+
+     </c:forEach>
+    </ul>
     
     
 
