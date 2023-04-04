@@ -41,8 +41,6 @@
 
     <hr>
     
-    <hr />
-    
     <ul>
     <c:forEach var="num" items="${tabuada}">
         <li>${num}</li>

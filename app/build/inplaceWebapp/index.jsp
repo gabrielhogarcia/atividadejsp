@@ -10,10 +10,12 @@
 <body>
 
     <h1>Olá JSP!!!</h1>
-    <br>
+    <hr>
     <a href="soma.jsp">Projeto Soma</a>
-    <br>
+    <hr>
     <a href="tabuada.jsp">Tabuada</a>
+    <hr />
+    <a href="numeros.jsp">numeros</a>
     
 </body>
 </html>
